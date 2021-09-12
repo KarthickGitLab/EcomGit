@@ -1,0 +1,12 @@
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Domain\bin\Debug\netcoreapp3.1\Ecom.Core.Domain.deps.json
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Domain\bin\Debug\netcoreapp3.1\Ecom.Core.Domain.dll
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Domain\bin\Debug\netcoreapp3.1\Ecom.Core.Domain.pdb
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Domain\bin\Debug\netcoreapp3.1\Ecom.Core.Data.dll
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Domain\bin\Debug\netcoreapp3.1\Ecom.Core.Data.pdb
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Domain\obj\Debug\netcoreapp3.1\Ecom.Core.Domain.csproj.AssemblyReference.cache
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Domain\obj\Debug\netcoreapp3.1\Ecom.Core.Domain.AssemblyInfoInputs.cache
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Domain\obj\Debug\netcoreapp3.1\Ecom.Core.Domain.AssemblyInfo.cs
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Domain\obj\Debug\netcoreapp3.1\Ecom.Core.Domain.csproj.CoreCompileInputs.cache
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Domain\obj\Debug\netcoreapp3.1\Ecom.Core.Domain.csproj.CopyComplete
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Domain\obj\Debug\netcoreapp3.1\Ecom.Core.Domain.dll
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Domain\obj\Debug\netcoreapp3.1\Ecom.Core.Domain.pdb

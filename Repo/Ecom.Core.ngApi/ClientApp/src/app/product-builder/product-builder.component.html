@@ -1,0 +1,68 @@
+<!-- main app container -->
+<div class="card mb-3">
+  <h5 class="card-header">{{currentIntent}}</h5>
+  <div class="card-body">
+    <form name="form" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate>
+      <div class="form-row">
+        <div class="form-group col-3">
+          <label>Product Name</label>
+          <input type="text" name="Name" class="form-control" [(ngModel)]="product.Name" #Name="ngModel" [ngClass]="{ 'is-invalid': f.submitted && Name.invalid }" required>
+          <div *ngIf="f.submitted && Name.invalid" class="invalid-feedback">
+            <div *ngIf="Name.errors.required">Product Name is required</div>
+          </div>
+        </div>
+        <div class="form-group col-3">
+          <label>Sku Code</label>
+          <input type="text" name="SkuCode" class="form-control" [(ngModel)]="product.SkuCode" #SkuCode="ngModel" [ngClass]="{ 'is-invalid': f.submitted && SkuCode.invalid }" required>
+        </div>
+        <div class="form-group col-3">
+          <label>Price</label>
+          <input type="text" name="Price" class="form-control" [(ngModel)]="product.Price" #Price="ngModel" [ngClass]="{ 'is-invalid': f.submitted && Price.invalid }" required>
+          <div *ngIf="f.submitted && Price.invalid" class="invalid-feedback">
+            <div *ngIf="Price.errors.required">Price is required</div>
+          </div>
+        </div>
+      </div>
+      <div class="text-right">
+        <button class="btn btn-primary mr-1">{{currentIntent}}</button>
+        <button class="btn btn-secondary" type="reset">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+
+<table class="dataTable display no-footer table table-hover w-100" id="tableProductList">
+  <thead class="dark-bg text-white">
+    <tr style="cursor:pointer">
+      <th class="d-none" sortable="IsDefault" (sort)="onSort($event)"></th>
+      <th sortable="Name" (sort)="onSort($event)">NAME</th>
+      <th sortable="SkuCode" (sort)="onSort($event)">SKU CODE</th>
+      <th sortable="Price" (sort)="onSort($event)">PRICE</th>
+      <th sortable="IsActive" (sort)="onSort($event)">IS ACTIVE</th>
+      <th scope="col">ACTION</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of productList | slice: (currentPage-1) * pageSize : (currentPage-1) * pageSize + pageSize;">
+      <td class="d-none">{{item.ProductId}}</td>
+      <td>{{item.Name}}</td>
+      <td>{{item.SkuCode}}</td>
+      <td>{{item.Price}}</td>
+      <td>{{item.IsActive ? 'Yes' : 'No'}}</td>
+      <td>
+        <a (click)="deleteProduct(item.ProductId)" class="float-right ml-2" ngbTooltip="Delete"><em class="fa-trash-alt fas"></em></a>
+        <a (click)="editProduct(item)" class="float-right"><em class="fas fa-edit" ngbTooltip="Edit"></em></a>
+      </td>
+    </tr>
+    <tr *ngIf="cartList?.length < 1">
+      <td colspan="6" style="text-align: center;">No records found</td>
+    </tr>
+  </tbody>
+</table>
+<div class="d-flex justify-content-end p-2">
+  <!--<ngb-pagination [(page)]="currentPage"
+                  [collectionSize]="productList?.length" [maxSize]="3" [pageSize]="pageSize" [rotate]="true" [boundaryLinks]="true">
+  </ngb-pagination>-->
+</div>

@@ -1,0 +1,8 @@
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Data\bin\Debug\netcoreapp3.1\Ecom.Core.Data.deps.json
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Data\bin\Debug\netcoreapp3.1\Ecom.Core.Data.dll
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Data\bin\Debug\netcoreapp3.1\Ecom.Core.Data.pdb
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Data\obj\Debug\netcoreapp3.1\Ecom.Core.Data.AssemblyInfoInputs.cache
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Data\obj\Debug\netcoreapp3.1\Ecom.Core.Data.AssemblyInfo.cs
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Data\obj\Debug\netcoreapp3.1\Ecom.Core.Data.csproj.CoreCompileInputs.cache
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Data\obj\Debug\netcoreapp3.1\Ecom.Core.Data.dll
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Data\obj\Debug\netcoreapp3.1\Ecom.Core.Data.pdb

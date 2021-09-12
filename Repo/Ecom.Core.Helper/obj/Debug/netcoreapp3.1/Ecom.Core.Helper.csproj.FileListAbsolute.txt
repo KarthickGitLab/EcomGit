@@ -1,0 +1,14 @@
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Helper\bin\Debug\netcoreapp3.1\Ecom.Core.Helper.deps.json
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Helper\bin\Debug\netcoreapp3.1\Ecom.Core.Helper.dll
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Helper\bin\Debug\netcoreapp3.1\Ecom.Core.Helper.pdb
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Helper\bin\Debug\netcoreapp3.1\Ecom.Core.Data.dll
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Helper\bin\Debug\netcoreapp3.1\Ecom.Core.Domain.dll
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Helper\bin\Debug\netcoreapp3.1\Ecom.Core.Domain.pdb
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Helper\bin\Debug\netcoreapp3.1\Ecom.Core.Data.pdb
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Helper\obj\Debug\netcoreapp3.1\Ecom.Core.Helper.csproj.AssemblyReference.cache
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Helper\obj\Debug\netcoreapp3.1\Ecom.Core.Helper.AssemblyInfoInputs.cache
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Helper\obj\Debug\netcoreapp3.1\Ecom.Core.Helper.AssemblyInfo.cs
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Helper\obj\Debug\netcoreapp3.1\Ecom.Core.Helper.csproj.CoreCompileInputs.cache
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Helper\obj\Debug\netcoreapp3.1\Ecom.Core.Helper.csproj.CopyComplete
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Helper\obj\Debug\netcoreapp3.1\Ecom.Core.Helper.dll
+E:\Karthick Subramani\E Commerce\Repo\Ecom.Core.Helper\obj\Debug\netcoreapp3.1\Ecom.Core.Helper.pdb
